@@ -120,7 +120,7 @@ alias slog='tail -f /var/log/syslog'
 alias nlog='tail -n 100 /var/log/syslog'
 alias lastn='last -n 20'
 alias sag='sudo apt-get'
-alias beta='ssh emax@192.168.0.111'
+
 
 extract() {
 if [ -f $1 ] ; then
